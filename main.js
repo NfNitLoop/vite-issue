@@ -1,4 +1,6 @@
-import './style.css'
+import b58c from "bs58check"
+
+console.log(b58c)
 
 document.querySelector('#app').innerHTML = `
   <h1>Hello Vite!</h1>
